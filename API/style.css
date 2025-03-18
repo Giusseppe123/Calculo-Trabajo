@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E4026;
+
+}
+
+.container {
+
+    width: 30%;
+    border: #ffffff 1px solid;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+
+
+
+}
+
+.container h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.Formulario_Crear_Jugador {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+
+
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: #ffffff 1px solid;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+
+
+}
+
+.form-group1 label {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    width: 50%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+    color: #ffffff;
+}
+
+.inputs::placeholder {
+    opacity: 0;
+}
+
+.Formulario_Crear_Jugador button {
+    background-color: #ffffff;
+    color: #1E4026;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.Formulario_Crear_Jugador button:hover {
+    background-color: #1E4026;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.separador {
+
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+
+.lista_jugador {
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    width: 100%;
+}
+
+.lista_jugadores_div {
+
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    /* Centers the element horizontally */
+}
+
+
+#listaJugadores {
+    list-style: none;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    border: #ffffff 1px solid;
+    border-radius: 5px;
+}
+
+.contendedorListaJugadores {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+
+}
+
+.contendedorListaJugadores h2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+
+}

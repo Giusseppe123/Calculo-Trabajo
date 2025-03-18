@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Jugador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+
+        <h1>Api de Jugador</h1>
+
+    </div>
+    <div class="separador">
+
+
+        <div class="container">
+
+            <h1>Crear Nuevo Jugador</h1>
+
+            <form id="formCrearJugador" class="Formulario_Crear_Jugador">
+
+                <div class="form-group1">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre" class="inputs" required>
+
+                </div>
+
+
+                <div class="form-group1">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Apellido" class="inputs" required>
+
+                </div>
+
+                <div class="form-group1">
+
+                    <label for="numeroCamiseta">Camiseta</label>
+                    <input type="number" id="numeroCamiseta" placeholder="Número de Camiseta" class="inputs" required>
+
+                </div>
+
+
+                <div class="form-group1">
+
+                    <label for="equipo">Equipo</label>
+                    <input type="text" id="equipo" placeholder="Equipo" class="inputs" required>
+
+                </div>
+
+                <div class="form-group1">
+
+                    <label for="posicion">Posicion</label>
+                    <input type="text" id="posicion" placeholder="Posición" class="inputs" required>
+
+                </div>
+
+                <div class="form-group1">
+
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" placeholder="Edad" class="inputs" required>
+
+                </div>
+
+
+                <button type="submit">Crear Jugador</button>
+            </form>
+        </div>
+
+        <div class="container">
+
+            <form id="formModificarJugador" class="Formulario_Crear_Jugador">
+
+                <h2>Modificar Jugador</h2>
+
+                <div class="form-group1">
+
+                    <label for="numeroCamisetaModificar">Camiseta:</label>
+                    <input type="number" id="numeroCamisetaModificar" placeholder="Número de Camiseta" class="inputs"
+                        required>
+
+                </div>
+
+                <div class="form-group1">
+
+                    <label for="nombreModificar">Nombre:</label>
+                    <input type="text" id="nombreModificar" placeholder="Nombre" class="inputs" required>
+                </div>
+                <div class="form-group1">
+                    <label for="apellidoModificar">Apellido:</label>
+                    <input type="text" id="apellidoModificar" placeholder="Apellido" class="inputs" required>
+                </div>
+                <div class="form-group1">
+                    <label for="equipoModificar">Equipo:</label>
+                    <input type="text" id="equipoModificar" placeholder="Equipo" class="inputs" required>
+                </div>
+                <div class="form-group1">
+                    <label for="posicionModificar">Posición:</label>
+                    <input type="text" id="posicionModificar" placeholder="Posición" class="inputs" required>
+                </div>
+                <div class="form-group1">
+                    <label for="edadModificar">Edad:</label>
+                    <input type="number" id="edadModificar" placeholder="Edad" class="inputs" required>
+                </div>
+
+                <button id="modificarJugadorButton">Modificar Jugador</button>
+            </form>
+        </div>
+        <div class="container">
+            <form id="formEliminarJugador" class="Formulario_Crear_Jugador">
+                <h2>Eliminar Jugador</h2>
+                <div class="form-group1">
+                    <label for="numeroCamisetaEliminar">Camiseta</label>
+                    <input type="number" id="numeroCamisetaEliminar" class="inputs" required>
+                </div>
+                <button type="button" id="eliminarJugadorButton">Eliminar Jugador</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="contendedorListaJugadores">
+        
+        <h2>Lista de Jugadores</h2>
+        <ul id="listaJugadores">
+
+        </ul>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
