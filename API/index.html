@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Jugador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crear Nuevo Jugador</h1>
+
+
+    <form id="formCrearJugador" class="Formulario_Crear_Jugador">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="number" id="numeroCamiseta" placeholder="Número de Camiseta" required>
+        <input type="text" id="equipo" placeholder="Equipo">
+        <input type="text" id="posicion" placeholder="Posición" required>
+        <input type="number" id="edad" placeholder="Edad" required>
+        <button type="submit">Crear Jugador</button>
+    </form>
+
+    <form id="formModificarJugador">
+        <h2>Modificar Jugador</h2>
+        <label for="numeroCamisetaModificar">Indique el número de camiseta:</label>
+        <input type="number" id="numeroCamisetaModificar" placeholder="Número de Camiseta" required>
+        <input type="text" id="nombreModificar" placeholder="Nombre" required>
+        <input type="text" id="apellidoModificar" placeholder="Apellido" required>
+        <input type="text" id="equipoModificar" placeholder="Equipo">
+        <input type="text" id="posicionModificar" placeholder="Posición" required>
+        <input type="number" id="edadModificar" placeholder="Edad" required>
+        <button id="modificarJugadorButton">Modificar Jugador</button>
+    </form>
+
+    <form id="formEliminarJugador">
+        <label for="numeroCamisetaEliminar">Número de Camiseta del jugador a Eliminar:</label>
+        <input type="number" id="numeroCamisetaEliminar" required>
+        <button type="button" id="eliminarJugadorButton">Eliminar Jugador</button>
+    </form>
+
+
+    <h2>Lista de Jugadores</h2>
+    <ul id="listaJugadores">
+
+    </ul>
+ 
+
+ 
+    <script src="app.js"></script>
+</body>
+</html>
